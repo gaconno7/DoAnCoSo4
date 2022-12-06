@@ -25,7 +25,7 @@
                     </li>
 
                     <li class="navbar-menu-item">
-                        <a href="#">Features</a>
+                        <a href="#">Feature</a>
                     </li>
 
                     <li class="navbar-menu-item">
