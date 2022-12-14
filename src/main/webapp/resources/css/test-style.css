@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.background {
+    background-color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.left-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    margin: 0px 64px 0px 128px;
+}
+
+.logo {
+    width: 128px;
+}
+
+.navbar-menu-container {
+
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu-item {
+    margin-right: 48px;
+    font-weight: bold;
+}
+
+.right-navbar {
+    display: flex;
+    margin-right: 128px;
+}
+
+.button {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-left: 24px;
+    padding: 8px 24px;
+}
+
+@media screen and (max-width: 1075px) {
+    .logo-container {
+        margin: 0px
+    }
+
+    .left-navbar {
+
+        margin-left: 0px;
+    }
+
+    .right-navbar {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 884px) {
+    .navbar {
+        display: block;
+    }
+
+    .left-navbar {
+        display: block;
+    }
+
+    .navbar-menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 24px 0px;
+    }
+}
+
+.test {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.test-content {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    width: 80%;
+}
+
+.test-content h1 {
+    text-align: center;
+    padding-top: 16px;
+}
+
+.test-form {
+    margin-left: 48px;
+}
+
+.question-item {
+    margin-bottom: 24px;
+}
+
+.question-title {
+    margin-bottom: 8px;
+}
+
+.answer-list {
+
+}
+
+.answer-item {
+    margin-bottom: 4px;
+}
+
+.submit-button {
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 8px 24px;
+    background-color: #ffffff;
+    margin-right: 48px;
+    margin-bottom: 24px;
+    float: right;
+
+}
+
+.timer {
+    margin: 48px;
+    border: 5px solid #000000;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.time {
+
+}
